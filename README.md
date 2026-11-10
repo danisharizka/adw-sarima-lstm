@@ -7,8 +7,6 @@ harian jumlah kunjungan pasien rumah sakit.
 
 ```
 .
-├── data/                       # dataset (di-gitignore)
-│   └── README.md               # cara menaruh data
 ├── notebooks/
 │   └── cek_stasioneritas.ipynb # Langkah 1-2: eksplorasi & uji stasioneritas
 ├── requirements.txt
@@ -18,7 +16,7 @@ harian jumlah kunjungan pasien rumah sakit.
 ## Cara menjalankan
 
 1. `pip install -r requirements.txt`
-2. Taruh `jk_pasien.xlsx` di folder `data/`.
+2. Buat folder data lalu taruh file `jk_pasien.xlsx`.
 3. Jalankan notebook di `notebooks/` dari atas ke bawah.
 
 ## Progres
