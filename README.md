@@ -8,7 +8,8 @@ harian jumlah kunjungan pasien rumah sakit.
 ```
 .
 ├── notebooks/
-│   └── cek_stasioneritas.ipynb # Langkah 1-2: eksplorasi & uji stasioneritas
+│   ├── cek_stasioneritas.ipynb # Langkah 1-2: eksplorasi & uji stasioneritas
+│   └── acf_pacf_kandidat.ipynb # Langkah 3: ACF/PACF & kandidat model SARIMA
 ├── requirements.txt
 └── README.md
 ```
@@ -23,7 +24,7 @@ harian jumlah kunjungan pasien rumah sakit.
 
 - [x] 1. Eksplorasi data
 - [x] 2. Uji stasioneritas (ADF & KPSS), penentuan d dan D
-- [ ] 3. ACF/PACF dan kandidat model SARIMA
+- [x] 3. ACF/PACF dan kandidat model SARIMA (7 kandidat, semua D=1, Q=1; estimasi setelah split)
 - [ ] 4. Pembagian train/test
 - [ ] 5. LSTM
 - [ ] 6. Perbandingan RMSE/MAE/MAPE
